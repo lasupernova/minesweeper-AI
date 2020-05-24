@@ -106,7 +106,7 @@ class Sentence():
         """
         Returns the set of all cells in self.cells known to be mines.
         """
-        # iterate over cells in sentence
+        # iterate over cells in sentence 
         if len(self.cells) == self.count:
             return set(self.cells)
         return set()
